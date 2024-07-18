@@ -1,1 +1,1 @@
-let nodes={paths:["index.html"],nodeCount:1,linkSources:[],linkTargets:[],labels:["index"],radii:[null],linkCount:0},attractionForce=1,linkLength=10,repulsionForce=150,centralForce=3,edgePruning=100
+let nodes={paths:["分析/基本概念.html","index.html"],nodeCount:2,linkSources:[1],linkTargets:[0],labels:["基本概念","index"],radii:[7,7],linkCount:1},attractionForce=1,linkLength=10,repulsionForce=150,centralForce=3,edgePruning=100
