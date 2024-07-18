@@ -1,0 +1,16 @@
+{
+  "pluginList": [
+    "RyotaUshio/obsidian-better-link-autocompletion",
+    "RyotaUshio/obsidian-math-booster"
+  ],
+  "pluginSubListFrozenVersion": [],
+  "themesList": [],
+  "updateAtStartup": false,
+  "updateThemesAtStartup": false,
+  "ribbonIconEnabled": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": true,
+  "notificationsEnabled": true
+}
