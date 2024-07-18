@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "分析/基本概念.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "分析/基本概念.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "分析/基本概念.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "分析/基本概念.md"
+                "file": "index.md"
               }
             }
           }
@@ -163,8 +163,8 @@
   },
   "active": "b2ee363b9b819bae",
   "lastOpenFiles": [
-    "index.md",
     "分析/基本概念.md",
+    "index.md",
     "代数",
     "分析",
     "Equations.md",
