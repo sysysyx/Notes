@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage.md",
+                "file": "index.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homepage.md"
+                "file": "index.md"
               }
             }
           }
@@ -165,7 +165,7 @@
   },
   "active": "b2ee363b9b819bae",
   "lastOpenFiles": [
-    "Homepage.md",
+    "index.md",
     "index.md",
     "Equations.md",
     "Credits.md",
