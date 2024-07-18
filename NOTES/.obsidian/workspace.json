@@ -155,11 +155,10 @@
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "command-palette:打开命令面板": false,
-      "publish:发布更改": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "float-search:Search Obsidian In Modal": false,
       "obsidian42-brat:BRAT": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "webpage-html-export:Export Vault to HTML": false
     }
   },

@@ -153,6 +153,7 @@
     "searchModalDvQuery": ""
   },
   "excludedFiles": [
-    "main.md"
+    "main.md",
+    "index.md"
   ]
 }
