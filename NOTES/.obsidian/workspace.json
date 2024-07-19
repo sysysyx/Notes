@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "分析基础/4 函数论/Lp 空间.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9d5c5783ffc2f550",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "分析基础/3 概率论/0 概率方法简介.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,8 +100,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
-                "collapseAll": false,
+                "file": "分析基础/3 概率论/0 概率方法简介.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "分析基础/3 概率论/0 概率方法简介.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,11 +152,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "分析基础/3 概率论/0 概率方法简介.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -161,12 +176,28 @@
       "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "b2ee363b9b819bae",
+  "active": "9d5c5783ffc2f550",
   "lastOpenFiles": [
-    "分析/基本概念.md",
     "index.md",
-    "代数",
-    "分析",
+    "统计学/基本概念.md",
+    "分析基础/基本概念.md",
+    "分析基础/4 函数论/Lp 空间.md",
+    "分析基础/3 概率论/3 中心极限定理.md",
+    "分析基础/3 概率论/2 大数律.md",
+    "分析基础/3 概率论/1 概率空间和随机变量.md",
+    "分析基础/3 概率论/0 概率方法简介.md",
+    "代数基础/线性代数",
+    "代数基础/模论",
+    "代数基础/域论",
+    "代数基础/未命名.md",
+    "代数基础/环论",
+    "代数基础/群论",
+    "Assets",
+    "Assets/Lp 空间-20240720001640193.webp",
+    "分析基础/3 概率论",
+    "统计学/回归分析",
+    "统计学",
+    "分析基础/5 泛函论",
     "Equations.md",
     "Credits.md",
     "Commands.md"

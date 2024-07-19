@@ -154,6 +154,8 @@
   },
   "excludedFiles": [
     "main.md",
-    "index.md"
+    "index.md",
+    "分析基础/4 函数论/Lp 空间.md",
+    "Source/Lp 空间-20240720001640193.webp"
   ]
 }

@@ -46,6 +46,6 @@
   "cssTheme": "Minimal",
   "baseFontSize": 16,
   "theme": "obsidian",
-  "textFontFamily": "CMU Serif,Noto Serif JP",
+  "textFontFamily": "CMU Serif,华文宋体",
   "monospaceFontFamily": "CMU Typewriter Text"
 }
