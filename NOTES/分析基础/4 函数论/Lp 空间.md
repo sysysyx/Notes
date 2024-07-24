@@ -238,7 +238,6 @@ $$\begin{align}
 > \end{align}$$
 > 特别地 $\|fg\|_1\leq \|g\|_\infty\|f\|_1$
 
-
 `BEGINPROOF`
 **保范性**: 显然 $\|T_g\|\leq \|g\|_\infty$ 为证 $\|T_g\|=\|g\|_\infty$, 不妨设 $\|g\|>0$. 对任意 $\varepsilon>0$, 取
 $$A\subset [|g|>\|g\|_\infty-\varepsilon]\quad \mu(A)>0_{\text{(由本性上界定义)}}$$
@@ -303,6 +302,23 @@ $$f_\varepsilon:=f*\rho_\varepsilon$$
 $$\left(\int \left(\int f(x-y)g(y)\ dy\right)^p\ dx\right)^{\frac1p}\leq\int \left(\int f(x-y)^pg^p(y)\ dx\right)^{\frac1p}dy=\|f\|_p\|g\|_1$$
 `ENDPROOF`
 ## 一致凸性
+
+我们知道 $L^p$ 空间作为 Banach 空间是局部凸的, 而一致凸是指
+
+> [!def] 一致凸
+> 对赋范线性空间 $(X,\|\cdot\|)$, 若有
+> $$\forall 0<\varepsilon\leq 2,\exists \delta>0:\forall x,y\in\operatorname{Disc}(X):=[\|z\|=1],\|x-y\|>\varepsilon\Rightarrow \|\frac{x+y}2\|>1-\delta$$
+
+Rmk:
+一致凸是范数的性质而不是拓扑的, 一个一致凸的范数可能有不一致凸的等价范数;
+对于 Hilbert 空间, 其平行四边形法则
+$$2\|x\|^2+2\|y\|^2=\|x+y\|^2+\|x-y\|^2$$
+保证了一致凸性, 那么自然 $L^2$ 是个一致凸的东西, 其它的 $L^p$ 空间呢?
+
+> [!thm] Hanner's Ineq 
+> $f,g\in L^p$, $1\leq p\leq 2$ 则有
+> $$\|f+g\|_p^p+\|f-g\|_p^p\geq |\|f\|_p+\|g\|_p|^p+|\|f\|_p-\|g\|_p|^p$$
+> 而若 $p>2$, 上述不等号反向
 
 ## 范数可微
 
