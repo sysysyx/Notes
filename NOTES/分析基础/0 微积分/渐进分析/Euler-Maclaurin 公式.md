@@ -110,15 +110,16 @@ $$\begin{align}
 $$f(x)=\frac{ye^{xy}}{e^y-1}$$
 考虑他在 $0$ 处对 $y$ Taylor 展开, 自然满足
 $$f^{(0)}(x)\xlongequal{\text{L'Hospital}}1$$
-$$\int_0^1\left(\frac{\partial }{\partial y}\right)^r\frac{ye^{xy}}{e^y-1}\ \partial x\xlongequal{1}\left(\frac{\partial }{\partial y}\right)^r\int_0^1\frac{ye^{xy}}{e^y-1}\ \partial x=\left(\frac{\partial }{\partial y}\right)^r\frac{e^{xy}|_0^1}{e^y-1}=0\quad  (r>0)$$
 $$\begin{align}
-\left.\frac{\partial }{\partial x}\left(\frac{\partial }{\partial y}\right)^r\frac{ye^{xy}}{e^y-1}\right|_{y=0}\xlongequal{2}\left.r\left(\frac{\partial}{\partial y}\right)^{r-1}\frac{ye^{xy}}{e^y-1}\right|_{y=0}
+\int_0^1\left(\frac{\partial }{\partial y}\right)^r\frac{ye^{xy}}{e^y-1}\ \partial x&\xlongequal{1}\left(\frac{\partial}{\partial y}\right)^r\int_0^1\frac{ye^{xy}}{e^y-1}\ \partial x\\
+&=\left(\frac{\partial }{\partial y}\right)^r\frac{e^{xy}|_0^1}{e^y-1}=0\quad  (r>0)
 \end{align}$$
-
 1 当然有一些换序带来的实分析问题要处理, 令 $y_n\to y$, $F(y)=\int_x f(x,y)\ dx$, 则
 $$F'(y)=\lim\frac{F(y_n)-F(y)}{y_n-y}=\lim\int\underbrace {\frac{f(x,y_n)-f(x,y)}{y_n-y}}_{\leq\sup_{y\in B_\varepsilon (y)}\left|\frac{\partial f}{\partial y}(x,y)\right|<\infty}\ dx$$
 从而由控制收敛定理允许换序
-
+$$\begin{align}
+\left.\frac{\partial }{\partial x}\left(\frac{\partial }{\partial y}\right)^r\frac{ye^{xy}}{e^y-1}\right|_{y=0}\xlongequal{2}\left.r\left(\frac{\partial}{\partial y}\right)^{r-1}\frac{ye^{xy}}{e^y-1}\right|_{y=0}
+\end{align}$$
 2 来自某种递归式的观察, 当然注意力足够集中的话也可以说它是显然的, 其换序是形式化的无需证明 (话说真没有什么能简洁的把这玩应写出来的语言吗)
 
 随后把 $B_r$ 定义为 $b_r(0)$ 即可, 不过实际上还差一步
