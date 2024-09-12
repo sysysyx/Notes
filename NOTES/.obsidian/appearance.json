@@ -1,5 +1,5 @@
 {
-  "accentColor": "",
+  "accentColor": "#fda06d",
   "enabledCssSnippets": [
     "ja",
     "en",
@@ -14,14 +14,12 @@
     "highlight",
     "tag",
     "hide-formatting",
-    "hide-edit-block-button",
     "callout-no-title",
     "better-search-views",
     "backlinks",
     "supercharged-links-gen",
     "literature-tooltip",
     "tags",
-    "brightness",
     "dataview",
     "font-computer-modern",
     "zotlit",
@@ -40,12 +38,17 @@
     "comments",
     "theorem-framed",
     "heading",
+    "webpage",
+    "brightness",
     "callouts",
-    "webpage"
+    "hide-edit-block-button"
   ],
   "cssTheme": "Minimal",
   "baseFontSize": 17,
   "theme": "obsidian",
   "textFontFamily": "CMU Serif,华文宋体",
-  "monospaceFontFamily": "CMU Typewriter Text"
+  "monospaceFontFamily": "CMU Typewriter Text",
+  "interfaceFontFamily": "Mojangles,Unifont",
+  "translucency": false,
+  "nativeMenus": false
 }
