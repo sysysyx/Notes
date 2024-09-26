@@ -23,5 +23,6 @@
   "autoPairMarkdown": false,
   "autoPairBrackets": false,
   "mobilePullAction": "darlal-switcher-plus:switcher-plus:open-commands",
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "promptDelete": false
 }

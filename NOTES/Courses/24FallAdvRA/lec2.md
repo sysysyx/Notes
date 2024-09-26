@@ -20,5 +20,3 @@ $$\mu(A)=\sum_{i=1}^n\mu(A_i)+\sum_{i=1}^k \mu (C_i)\geq \sum_{i=1}^n \mu(A_{i})
 let $n\to\infty$, $\mu(A)\geq\sum_{i=1}^\infty A_i$.
 On the other hand, for simi $\sigma$-additive $\mu(A)\leq \sum_{i=1}^\infty A_i$
 `ENDPROOF`
-## 1.4 outer measure
-

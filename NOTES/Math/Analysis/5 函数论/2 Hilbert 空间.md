@@ -92,3 +92,79 @@ $$\begin{align}
 \end{align}$$
 `ENDPROOF`
 
+对于一个 Hilbert 空间, 考虑其上所有有界线性泛函
+$$\mathcal B(\mathcal H)\equiv \{A:\mathcal H \to\mathcal H\mid \text{linear }\|A\|<\infty\}$$
+我们知道这是个 Banach 代数, 但由于内积的存在, 我们能找到更多的结构 -- **伴随**: 假设有元 $A\in\mathcal B(\mathcal H)$ 考虑上述定义的 $K$, 我们有 $KAK^{-1}\in\mathcal B(\mathcal H^*))$, 称为 $A$ 的伴随. 而由于我们有 $\mathcal H$ 到 $\mathcal H^*$ 的同构, 我们想要利用其得到 $A$ 的伴随在 $\mathcal H$ 的表现.
+
+第一个问题就是一个元素和其伴随能否互相确定, 严格来说就是: 
+
+> [!thm]
+> 对于 $A\in\mathcal B(\mathcal H)$, 若有 $\forall \varphi\in\mathcal H,\langle \varphi,A\varphi\rangle =0$ 则 $A=0$,
+
+^61e3c5
+
+`BEGINPROOF`
+$$\begin{cases}
+0=i\langle i\varphi+\psi,iA\varphi+A\psi\rangle=i\langle i\varphi,A\psi\rangle+ i\langle \psi,iA\varphi\rangle=\langle \varphi,A\psi\rangle -\langle \psi,A\varphi\rangle \\
+0=\langle \varphi,A\psi\rangle +\langle \psi,A\varphi\rangle 
+\end{cases}$$
+两式相加得到 $\langle \varphi,A\psi\rangle =0$ 再令 $\varphi=A\psi$ 得到 $\forall \psi\in\mathcal H,\|A\psi \|^2=0\implies A\psi=0$
+`ENDPROOF`
+
+
+下面正式开始证明: 我们先找到一个中间节点
+
+> [!thm]
+> 对任意有界双线性函数 $f:\mathcal H^2\to\mathbb C$ (即)
+> $$S:=\sup(\{|f(\varphi,\psi)|:\|\varphi\|=\|\psi\|=1\})<\infty$$
+> 必然存在 $F\in\mathcal B(\mathcal H)$ 满足
+> $$f(\varphi,\psi)=\langle F\varphi,\psi\rangle\qquad (\varphi,\psi\in\mathcal H)$$
+>  且 $\|F\|=S$ 
+
+`BEGINPROOF`
+固定一个 $\varphi$, 此时函数 $\mathcal H\ni \psi\mapsto f(\varphi,\psi)$ 为一有界线性函数, 则由上述同构存在 $F(\varphi)\in\mathcal H$ 使得 $f(\varphi,\psi)=\langle F(\varphi),\psi\rangle$, 并且由于 $|f(\varphi,\psi)|\leq S\|\varphi\|\|\psi\|$, 有 $\|F(\varphi)\|\leq S\|\varphi\|$. 而由于 $f$ 为双线性函数, $F$ 必然为线性函数, 下证 $\|F\|=\|S\|$ 由上讨论有 $\|F\|\leq S$, 同时
+$$|f(\varphi,\psi)|=|\langle F\varphi,\psi\rangle|\leq\|F\varphi\|\|\psi\|\leq\|F\|\|\varphi\|\|\psi\|\implies\|F\|\geq S$$
+`ENDPROOF`
+利用上述这个性质, 我们取
+$$f(\varphi,\psi)=\langle \varphi,A\psi\rangle$$
+则必然有 $A^*\in\mathcal B(\mathcal H):\langle \varphi,A\psi\rangle =\langle A^*\varphi,\psi\rangle$, 并且 $\|A^*\|=\|A\|$.
+
+那么很自然的我们有
+$$\langle A^{* *}\varphi,\psi\rangle =\langle \varphi,A^*\psi\rangle =\langle A\varphi,\psi\rangle$$
+由 [[#^61e3c5]] $A^{* *}=A$
+
+相比在 Banach 空间上建立的 Banach 代数, 利用这一结构我们能在 $\mathcal H$ 上建立一个称为 $C^*$ 代数的更丰富的结构
+
+> [!claim]
+> $$\|A\|^2=\|A^*A\|$$
+
+`BEGINPROOF`
+$$\|A\varphi\|^2=\langle A\varphi,A\varphi\rangle=\langle \varphi,A^*A\varphi\rangle \leq\|A^*A\|\|\varphi\|^2$$
+另一方向
+$$\|A^*A\|\leq\|A^*\|\|A\|=\|A\|^2$$
+`ENDPROOF`
+
+从这里就能抽象出 $C^*$ 代数的定义
+
+> [!def] $C^*$ 代数
+> 一个 $C^*$ 代数是指一个 Banach 代数 $\mathcal A$ 配上一个 $\mathbb C$-逆线性映射 映射
+> $$*:\mathcal A\to \mathcal A$$
+> 满足 $\|a^*a\|=\|a\|^2,\forall a\in\mathcal A$
+
+后续将详细研究它
+
+回到 $\mathcal B(\mathcal H)$, 证明一些简单的性质
+
+> [!thm]
+> $$\ker(A^*)=\operatorname{im}(A)^\perp\qquad \ker(A)=\operatorname{im} (A^*)^\perp$$
+> $$\ker(A)=\ker (A^*A)$$
+
+证明依定义显然
+
+利用内积还可以在 $\mathcal B(\mathcal H)$ 上定义序关系
+
+> [!def] 自伴算子的序
+> 对于 $A\in\mathcal B(\mathcal H)$, 称其为正定的, 记作 $A\geq0$, 如果
+> $$\langle \varphi,A\varphi\rangle \geq0\quad(\varphi\in\mathcal H)$$
+> 相似地, 若有 $A-B\geq0$, 记作 $A\geq B$
+

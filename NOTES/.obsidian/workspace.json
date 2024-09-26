@@ -4,63 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "e2f2aa882a67190c",
+        "id": "271b595f41515467",
         "type": "tabs",
         "children": [
           {
-            "id": "5650aa3c9293da02",
+            "id": "e74c066ea8c0f489",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis/4 概率论/2 大数律.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "77149aaa9fd25740",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Courses/24FallAdvRA/lec2.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "95ec912feb5987af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Assets/latex-suit-doc.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d9ba9f1fb3db0e38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homework/Differencial Geometry/第一周.md",
+                "file": "Homework/Differencial Geometry/第二周.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Courses/24FallAdvRA/lec2.md",
+                "file": "Homework/Differencial Geometry/第二周.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Courses/24FallAdvRA/lec2.md",
+                "file": "Homework/Differencial Geometry/第二周.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Courses/24FallAdvRA/lec2.md"
+                "file": "Homework/Differencial Geometry/第二周.md"
               }
             }
           },
@@ -196,12 +156,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 491.5,
-    "collapsed": true
+    "width": 283.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,54 +175,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "77149aaa9fd25740",
+  "active": "e74c066ea8c0f489",
   "lastOpenFiles": [
-    "index.md",
-    "tittle-tattle/抽象废话.md",
-    "tittle-tattle/代数学讲义习题/Cpt4.md",
-    "Statistics/基本概念.md",
-    "Others/组合是人类的--.md",
-    "Homework/形势与政策报告.md",
+    "Homework/Differencial Geometry/第一周.md",
+    "Homework/Differencial Geometry/第二周.md",
+    "Homework/Statistcs/W3,4.md",
+    "Homework/Statistcs/W1,2.md",
+    "Homework/运筹学/hw1.md",
+    "Assets/hw1-20240926200154167.webp",
+    "Assets/hw1-20240926191638068.webp",
+    "Math/Analysis/5 函数论/1 Banach 空间.md",
+    "Math/Analysis/2 测度论/1 测度与积分.md",
+    "Homework/运筹学",
+    "Math/Analysis/2 测度论/0 测度论.md",
+    "Homework/Functional Analysis/第三周.md",
+    "Math/Analysis/5 函数论/Lp 空间.md",
+    "DailyNotes/2024-07-20.md",
+    "Homework/Regression analysis/hw3.md",
+    "Homework/Regression analysis/hw2.md",
     "Homework/Regression analysis/hw1.md",
     "Homework/Functional Analysis/第一周.md",
-    "Homework/Differencial Geometry/第一周.md",
-    "Homework/AdvProbabity/杂题荟萃.md",
-    "DailyNotes/2024-09-04.md",
-    "DailyNotes/2024-07-30.md",
+    "Homework/Functional Analysis/第二周.md",
+    "Courses/24FallAdvRA/lec3.md",
     "Courses/24FallAdvRA/lec2.md",
-    "Courses/24FallAdvRA/lec1.md",
-    "Assets/latex-suit-doc.md",
-    "Arts/the Eye of the Painter.md",
-    "Arts/杂项.md",
     "Arts/素描与色彩/1 明度.md",
-    "Arts/人体结构/头部.md",
-    "Analysis/5 函数论/Soblev 空间.md",
-    "Analysis/5 函数论/Lp 空间.md",
-    "Analysis/5 函数论/赋范线性空间.md",
-    "Analysis/5 函数论/2 Hilbert 空间.md",
-    "Analysis/5 函数论/1 Banach 空间.md",
-    "Analysis/4 概率论/3 中心极限定理.md",
-    "Analysis/4 概率论/2 大数律.md",
+    "Arts/人体结构/比例与结构.md",
+    "Math/Analysis/5 函数论/2 Hilbert 空间.md",
+    "Math/Analysis/0 微积分/渐进分析/1 形式幂级数.md",
+    "Arts/画面构成.md",
+    "Courses/24FallFA/lec 1-6.md",
+    "Courses/DiffGeo/lec 1-6.md",
+    "Courses/代数学基础第一次习题课讲义.md",
+    "Math",
+    "Math/Geometry",
+    "Courses/DiffGeo",
+    "Assets/W1,2-20240917193643796.webp",
+    "Homework/Statistcs",
+    "Courses/24FallFA",
+    "Assets/第二周-20240916155955978.webp",
+    "Assets/第二周-20240916155833876.webp",
     "Homework/AdvProbabity",
     "Assets/第一周-20240910220254744.webp",
     "Homework/Functional Analysis",
     "Courses/24FallAdvRA",
     "Courses",
-    "Homework/Regression analysis",
-    "Assets/1 Banach 空间.pdf",
-    "Homework/Differencial Geometry",
-    "Homework",
-    "Arts/人体结构",
-    "Arts/素描与色彩",
     "Assets/1 基本概念-20240801185059769.webp",
     "Assets/测度与积分1.canvas",
     "Assets/光影-20240811122836114.webp",
     "Assets/光影-20240811122815185.webp",
-    "Assets/光影-20240811122731262.webp",
-    "Assets/Cpt4-20240807112504422.webp",
-    "Assets/Cpt4-20240807112439578.webp",
-    "Assets/1 基本概念-20240801185119909.webp",
-    "Assets/Euler-Maclaurin 公式-20240729170518452.webp",
-    "Assets/赋范线性空间-20240721112801616.webp"
+    "Assets/光影-20240811122731262.webp"
   ]
 }

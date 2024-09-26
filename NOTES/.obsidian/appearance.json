@@ -44,7 +44,7 @@
     "hide-edit-block-button"
   ],
   "cssTheme": "Minimal",
-  "baseFontSize": 17,
+  "baseFontSize": 16,
   "theme": "obsidian",
   "textFontFamily": "CMU Serif,华文宋体",
   "monospaceFontFamily": "CMU Typewriter Text",
