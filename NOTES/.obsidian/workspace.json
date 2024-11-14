@@ -4,33 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3250c13458888238",
+        "id": "89a6e264101c7e53",
         "type": "tabs",
         "children": [
           {
-            "id": "47cb3dfab129db24",
+            "id": "e75c5fe1b9ddd93f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/统计理论/2 点估计方法.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dcbee6bc73a17f36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Arts/绘画流程/绘画流程.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -83,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bdaff67c5d1510bb",
@@ -100,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/统计理论/2 点估计方法.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/统计理论/2 点估计方法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Statistics/统计理论/2 点估计方法.md"
-              }
+              "state": {}
             }
           },
           {
@@ -190,38 +167,38 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "47cb3dfab129db24",
+  "active": "e75c5fe1b9ddd93f",
   "lastOpenFiles": [
-    "Math/闲聊/关于排列组合的一些扫盲.md",
-    "Math/闲聊/抽象废话.md",
-    "Math/闲聊/代数学讲义习题/代数学基础第一次习题课讲义.md",
-    "Statistics/统计理论/2 点估计方法.md",
+    "index.md",
+    "Assets/%[LC69]8R_VJVLWOL8B0B~5.jpg",
+    "Arts/绘画流程/绘画流程.md",
+    "draft.md",
+    "Statistics/统计理论/统计理论.md",
     "Statistics/统计理论/3 假设检验.md",
+    "Statistics/统计理论/2 点估计方法.md",
     "Statistics/统计理论/1 统计模型与统计量.md",
+    "Statistics/数理统计/3 假设检验.md",
     "Statistics/数理统计/2 点估计与区间估计.md",
     "Statistics/数理统计/1 基本概念.md",
-    "Statistics/统计理论/统计理论.md",
-    "Statistics/数理统计/3 假设检验.md",
-    "Statistics/统计理论",
-    "Homework/运筹学/hw4.md",
-    "algorithm/运筹/3 梯度下降法.md",
-    "algorithm/运筹/2 动态规划.md",
-    "algorithm/运筹/1 线性规划.md",
-    "algorithm/运筹",
-    "algorithm/未命名.md",
-    "algorithm",
-    "Homework/Functional Analysis/第十周.md",
-    "Math/Analysis/5 函数论/泛函分析/1 拓扑线性空间.md",
-    "Math/Analysis/5 函数论/泛函分析/2 Banach 空间.md",
-    "Homework/Regression analysis/hw7.md",
-    "Homework/Functional Analysis/第九周.md",
-    "Math/Analysis/5 函数论/泛函分析/3 Banach 代数.md",
-    "Math/Analysis/5 函数论/Lp 空间.md",
+    "Projects/线稿自动填色程序/填色原理.md",
+    "Projects/短篇漫画/剧情.md",
+    "Projects/辩论/队内模虐待虚拟游戏 NPC 没有道德问题.md",
+    "Math/Others/组合是人类的--.md",
+    "Math/Geometry/微分流形.md",
     "Math/Analysis/5 函数论/Soblev 空间.md",
+    "Math/Analysis/5 函数论/Lp 空间.md",
+    "Math/Analysis/5 函数论/赋范线性空间.md",
     "Math/Analysis/5 函数论/泛函分析/4 Hilbert 空间.md",
-    "Math/Analysis/5 函数论/1 Banach 空间.md",
+    "Math/Analysis/5 函数论/泛函分析/3 Banach 代数.md",
+    "Math/Analysis/5 函数论/泛函分析/2 Banach 空间.md",
+    "Math/Analysis/5 函数论/泛函分析/1 拓扑线性空间.md",
+    "Math/Analysis/2 测度论/1 测度与积分.md",
+    "Math/Analysis/2 测度论/0 测度论.md",
+    "Math/Analysis/1 点集拓扑/拓扑与连续.md",
+    "Statistics/统计理论",
+    "algorithm/运筹",
+    "algorithm",
     "Math/Analysis/5 函数论/泛函分析",
-    "Math/闲聊/代数学讲义习题/代数学基础三四章复习.md",
     "Arts/绘画流程",
     "Assets/代数学基础第九次习题课讲义-20241110012337128.webp",
     "Assets/代数学基础第九次习题课讲义-20241110012323369.webp",
@@ -236,7 +213,6 @@
     "Assets/hw6-20241025194806586.webp",
     "Assets/hw2-20241013084718019.webp",
     "Assets/hw2-20241013084510711.webp",
-    "Assets/hw2-20241013084147425.webp",
     "Projects/短篇漫画",
     "Assets/测度与积分1.canvas"
   ]
