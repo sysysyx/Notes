@@ -13,7 +13,7 @@ $$\begin{align}
 &=\inf\{M>0:|f(z)|\underset{\text{a.e.}}\leq M\}& 收缩\\
 &=\sup\{M>0:m([f(z)>M])>0\}&膨胀
 \end{align}$$
-这个叫做函数 $f$ 的**本性上界*
+这个叫做函数 $f$ 的**本性上界**
 
 Properties:
 - $L^p$ 空间是 Banach 空间
@@ -318,10 +318,48 @@ $$2\|x\|^2+2\|y\|^2=\|x+y\|^2+\|x-y\|^2$$
 > [!thm] Hanner's Ineq 
 > $f,g\in L^p$, $1\leq p\leq 2$ 则有
 > $$\|f+g\|_p^p+\|f-g\|_p^p\geq |\|f\|_p+\|g\|_p|^p+|\|f\|_p-\|g\|_p|^p$$
-> 而若 $p>2$, 上述不等号反向
+> 而若 $p>2$, 上述不等号反向 (事实上, $p=2$ 时上式严格取等)
+
+`BEGINPROOF`
+$p=1$ 时, 上述不等式为三角不等式; $p=2$ 时, 上述不等式为平行四边形法则
+
+对于 $0\leq r\leq1$, 取
+$$\begin{align}
+\alpha(r)&=(1+r)^{p-1}+(1-r)^{p-1} \\
+\beta(r)&= [(1+r)^{p-1}-(1-r)^{p-1}]r^{1-p}
+\end{align}$$
+并且取
+$$\beta(0)=\begin{cases}
+0&1\leq p\leq2 \\
+\infty& p>2
+\end{cases}$$
+从而函数
+$$F_{R}(r)=\alpha(r)+\beta(r)R^p$$
+在 $r=R$ 处取极值, $p<2$ 时是极小值, $p>2$ 时是极大值, 从而
+$$\begin{align}
+\alpha(r)+\beta(r)R^p\leq(1+R)^p+(1-R)^p,&\quad p<2\\
+\alpha(r)+\beta(r)R^p\geq(1+R)^p+(1-R)^p,&\quad p>2
+\end{align}$$
+
+同时
+$$\begin{align}
+\alpha(r)\leq\beta(r)&\quad (p<2) \\
+\alpha(r)\geq\beta(r)&\quad (p>2)
+\end{align}$$
+从而
+$$\begin{align}
+\alpha(r)+\beta(r)R^p\leq\alpha(r)R^p+\beta(r),&\quad p<2 \\
+\alpha(r)+\beta(r)R^p\geq\alpha(r)R^p+\beta(r),&\quad p>2 \\
+\end{align}$$
+#todo 
+
+`ENDPROOF`
 
 ## 范数可微
 
+对于 $p>1$ 注意到函数
+$$N(t):t\mapsto\|f+tg\|_{p}^p=\int|f(x)+tg(x)|^p\mathrm{d}\mu(x)$$
+为一凸函数, 从而必然有左导数和右导数, 事实上它是可微的 ($p=1$ 时并非如此)
 ## 弱收敛和强收敛
 
 # $L^p$ 空间的插值
